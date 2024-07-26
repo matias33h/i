@@ -2,7 +2,7 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial, sans-serif;
-  background: url('./img/pexels-victorfreitas-841130.jpg') no-repeat center center fixed;
+  background: url('./pexels-victorfreitas-841130.jpg') no-repeat center center fixed;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -31,9 +31,9 @@ body {
 
 .login-form::before {
   content: "";
-  background: url('./img/pexels-photo-4870821.webp') no-repeat center center;
+  background: url('./pexels-karolina-grabowska-4870821.jpg') no-repeat center center;
   background-size: cover;
-  opacity: 0.5;
+  opacity: 0.4;
   position: absolute;
   top: 0;
   left: 0;

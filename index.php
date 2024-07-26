@@ -10,7 +10,7 @@
     <div class="container">
         <div class="login-form">
             <h2>Login</h2>
-            <form action="iniciarSesion.php" method="POST">
+            <form action="IniciarSesion.php" method="POST">
                 <div class="input-group">
                     <label for="username">USER</label>
                     <input type="text" name="usuario" id="username" placeholder="User" required>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="remember-me">
                     <input type="checkbox" id="remember">
-                    <label for="remember">Remember Me</label>
+                    <label for="remember">Guardar contraseña</label>
                 </div>
                 <button type="submit">Iniciar Sesion</button>
                 <div class="forgot-password">
@@ -30,7 +30,8 @@
             </form>
             <div class="register">
                 <span>No tienes cuenta?</span>
-                <a href="crearCuenta.php">Registrate</a>
+                <!-- Redirige al archivo register.html -->
+                <a href="register.html">Registrate</a>
             </div>
         </div>
     </div>
