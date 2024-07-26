@@ -1,25 +1,52 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Insertar Usuario</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Styles/register.css">
+    <title>Registro</title>
 </head>
 <body>
-    <form action="register.php" method="post">
-        <label for="usuario">Usuario:</label>
-        <input type="text" id="usuario" name="usuario" required><br>
-
-        <label for="password">Contraseña:</label>
-        <input type="password" id="password" name="password" required><br>
-
-        <label for="nombre">Nombre:</label>
-        <input type="text" id="nombre" name="nombre_completo" required><br>
-
-        <input type="submit" value="Insertar Usuario">
-    </form>
+    <div class="container">
+    
+        <div class="container">
+            <div class="login-form">
+                <h2>Register</h2>
+                <form action="register.php" method="POST">
+                    <div class="input-group">
+                        <label for="username">Nombre</label>
+                        <input type="text" name="usuario" id="username" placeholder="nombre" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Apellido</label>
+                        <input type="password" name="apellido" id="password" placeholder="apellido" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Domicilio</label>
+                        <input type="password" name="domicilio" id="password" placeholder="domicilio" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Usuario</label>
+                        <input type="password" name="usuario" id="password" placeholder="usuario" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Contraseña</label>
+                        <input type="password" name="contraseña" id="password" placeholder="contraseña" required>
+                    </div>
+              
+                    <button type="submit">Registrarse</button>
+                    <div class="forgot-password">
+                        <a href="#"></a>
+                    </div>
+                </form>
+                <div class="register">
+                    <span>Ya tienes cuenta?</span>
+                    <!-- Redirige al archivo register.html -->
+                    <a href="login.html">Iniciar Sesion</a>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
-
-
-
-
 

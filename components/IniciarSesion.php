@@ -1,6 +1,6 @@
 <?php
 
-    include('conexion.php');
+    include('../config/conexion.php');
     
     if (isset($_POST['usuario']) && isset($_POST['password'])) {
         function validate($data){
