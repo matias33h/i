@@ -1,0 +1,85 @@
+<?php
+session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym Home</title>
+    <link rel="stylesheet" href="../Styles/home.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>My Gym</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="home.php">Home</a></li>
+                    <li><a href="register.html">Register</a></li>
+                    <li><a href="login.html">Login</a></li>
+                    <li><a href="../includes/logout.php">Logout</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="welcome">
+        <div class="container">
+            <h2>Welcome to My Gym</h2>
+            <p>Your journey to fitness starts here!</p>
+        </div>
+    </section>
+
+    <section class="gallery">
+        <div class="container">
+            <h2>Our Gallery</h2>
+            <div class="images">
+                <img src="../images/gym1.jpg" alt="Gym Image 1">
+                <img src="../images/gym2.jpg" alt="Gym Image 2">
+                <img src="../images/gym3.jpg" alt="Gym Image 3">
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <h2>Our Services</h2>
+            <div class="service">
+                <h3>Personal Training</h3>
+                <p>Get personalized workout plans and guidance from our expert trainers.</p>
+            </div>
+            <div class="service">
+                <h3>Group Classes</h3>
+                <p>Join our fun and engaging group classes for all fitness levels.</p>
+            </div>
+            <div class="service">
+                <h3>Nutrition Advice</h3>
+                <p>Receive dietary advice to complement your fitness goals.</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>"My Gym has completely transformed my life! The trainers are amazing and the atmosphere is great."</p>
+                <h3>- John Doe</h3>
+            </div>
+            <div class="testimonial">
+                <p>"I love the variety of classes offered. There is something for everyone!"</p>
+                <h3>- Jane Smith</h3>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 My Gym. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

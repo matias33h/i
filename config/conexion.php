@@ -1,7 +1,7 @@
 <?php
 
 $host = "localhost";
-$bd = "iniciodesesiondb";
+$bd = "practica";
 $usuario = "root";
 $contrasenia = "";
 
@@ -11,3 +11,4 @@ try {
 } catch (Exception $ex) {
     echo $ex->getMessage();
 }
+

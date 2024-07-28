@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../Styles/login.css">
+    <title>Registro</title>
+</head>
+<body>
+    <div class="container">
+    
+        <div class="container">
+            <div class="login-form">
+                <h2>Register</h2>
+                <form action="../components/register.php" method="POST">
+                    <div class="input-group">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" name="nombre" id="nombre" placeholder="nombre" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="apellido">Apellido</label>
+                        <input type="text" name="apellido" id="apellido" placeholder="apellido" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="domicilio">Domicilio</label>
+                        <input type="text" name="domicilio" id="domicilio" placeholder="domicilio" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="usuario">Usuario</label>
+                        <input type="text" name="usuario" id="usuario" placeholder="usuario" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="contraseña">Contraseña</label>
+                        <input type="password" name="contraseña" id="contraseña" placeholder="contraseña" required>
+                    </div>
+              
+                    <button type="submit">Registrarse</button>
+                    <div class="forgot-password">
+                        <a href="#"></a>
+                    </div>
+                </form>
+                <div class="register">
+                    <span>Ya tienes cuenta?</span>
+                    <a href="./login.html">Iniciar Sesion</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+
