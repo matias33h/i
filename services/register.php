@@ -13,7 +13,6 @@ try {
 }
 
 
-include('../config/db.php');
 
 function validate($data) {
     $data = trim($data);
